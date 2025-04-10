@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Special Message For You...</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lora:wght@400;700&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <main>
+    <header class="fade-in">
+      <h1>Every great story has a beginning...</h1>
+      <p class="subtitle">And I hope ours starts here ✨</p>
+    </header>
+
+    <section id="introduction" class="card fade-in">
+      <h2>Dear Katie</h2>
+      <p>From the moment I first saw you, I knew there was something magical about you. This little corner of the internet is my way of saying "Hi" in the most special way I could think of.</p>
+    </section>
+
+    <section id="flirt-section" class="card fade-in">
+      <h2>Hey Katie 💝</h2>
+      <p>I've been wanting to tell you something...</p>
+      <div class="flirt-container">
+        <button class="flirt-btn" data-message="Is your name WiFi? Because I'm really feeling a connection 😊">Flirty Line #1</button>
+        <button class="flirt-btn" data-message="If you were a star, you'd be the brightest one in my sky ✨">Sweet Message</button>
+      </div>
+      <p id="flirt-text" class="hidden"></p>
+      <div class="next-flirt hidden">
+        <button id="next-flirt" class="special-btn">Another Message 💌</button>
+      </div>
+    </section>
+
+    <section id="surprise" class="card fade-in">
+      <h2>A Little Secret</h2>
+      <p>I've prepared something special just for you...</p>
+      <button id="reveal-btn" class="special-btn">Click for a Surprise ✨</button>
+      <p id="hidden-message" class="hidden">You make my heart skip a beat every time I see you smile 💖</p>
+    </section>
+
+    <section id="contact" class="card fade-in">
+      <h2>Let's Talk</h2>
+      <p>If you'd like to know more, I'm just a message away...</p>
+      <button id="contact-btn" class="special-btn">How to Reach Me</button>
+      <p id="contact-info" class="hidden"></p>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
